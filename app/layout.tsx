@@ -1,4 +1,6 @@
-import "../styles/global.scss";
+// app/layout.tsx
+import "./global.scss";
+import LayoutClient from "./components/LayoutClient";
 
 export default function RootLayout({
     children,
@@ -7,7 +9,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <LayoutClient>{children}</LayoutClient>
+            </body>
         </html>
     );
 }

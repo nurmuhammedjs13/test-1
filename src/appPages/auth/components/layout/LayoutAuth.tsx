@@ -1,13 +1,16 @@
+// src/appPages/auth/components/layout/LayoutAuth.tsx
 "use client";
-import { FC, ReactNode } from "react";
-import scss from "./LayoutAuth.module.scss";
+import React, { ReactNode } from "react";
+import styles from "./LayoutAuth.module.scss";
 
 interface LayoutAuthProps {
-    children?: ReactNode;
+    children: ReactNode;
 }
 
-const LayoutAuth: FC<LayoutAuthProps> = ({ children }) => {
-    return <div className={scss.LayoutPage}>{children}</div>;
-};
-
-export default LayoutAuth;
+export default function LayoutAuth({ children }: LayoutAuthProps) {
+    return (
+        <div className={styles.authLayout}>
+            <div className={styles.authContainer}>{children}</div>
+        </div>
+    );
+}
