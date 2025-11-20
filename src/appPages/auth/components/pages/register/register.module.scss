@@ -1,0 +1,99 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 30px 120px;
+        border-bottom: 2px solid rgb(184, 184, 184);
+        .buttonText {
+            color: rgba(35, 166, 240, 1);
+            font-size: 20px;
+            font-weight: 400;
+            border: none;
+            background: none;
+            cursor: pointer;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            color: rgba(0, 0, 0, 1);
+            font-size: 40.18px;
+            font-weight: 550;
+            padding: 25px;
+            line-height: 48px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            .inputText {
+                color: rgba(0, 0, 0, 1);
+                font-size: 16.74px;
+                font-weight: 400;
+                line-height: 20px;
+                padding: 0 0 8px 0;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .input {
+                width: 400px;
+                height: 50px;
+                border: 1px solid rgba(184, 184, 184, 1);
+                border-radius: 8px;
+                padding: 0 15px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .inputWrapper {
+                width: 400px;
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid rgba(184, 184, 184, 1);
+                border-radius: 8px;
+                padding: 0 15px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: left;
+                .inputPassword {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    outline: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .eyeBtn {
+                    background: none;
+                    border: none;
+                    width: 50px;
+                    height: 50px;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
