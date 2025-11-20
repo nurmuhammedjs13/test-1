@@ -1,4 +1,4 @@
-import Login from "@/appPages/auth/components/pages/login/Login";
+import Login from "@/appPages/auth/components/pages/login/login";
 import React from "react";
 
 function page() {
