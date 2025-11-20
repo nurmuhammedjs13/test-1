@@ -1,9 +1,12 @@
 import HomePage1 from "@/appPages/site/components/pages/HomePage";
+import React from "react";
 
-export default function HomePage() {
+function page() {
     return (
         <div>
             <HomePage1 />
         </div>
     );
 }
+
+export default page;
