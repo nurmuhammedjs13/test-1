@@ -1,0 +1,77 @@
+.header {
+  margin: 1% 0;
+  cursor: pointer;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      .image {
+        width: 20%;
+        height: 20%;
+      }
+    }
+    .rout {
+      display: flex;
+      flex-direction: row;
+      gap: 3pc;
+      align-items: center;
+      .routText {
+        .link {
+          text-decoration: none;
+          color: rgba(79, 86, 101, 1);
+
+          font-family: Montserrat;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0.2px;
+          text-align: center;
+        }
+      }
+    }
+    .boxButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .button1 {
+        cursor: pointer;
+        width: 200px;
+        height: 52px;
+        gap: 15px;
+        padding: 15px 24px 15px 24px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        color: var(--primary-color, rgba(35, 166, 240, 1));
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        text-align: right;
+        border: none;
+      }
+      .button2 {
+        cursor: pointer;
+        width: 200px;
+        height: 52px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 24px 15px 24px;
+        border-radius: 5px;
+        background: rgba(35, 166, 240, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        border: none;
+        text-align: left;
+      }
+    }
+  }
+}

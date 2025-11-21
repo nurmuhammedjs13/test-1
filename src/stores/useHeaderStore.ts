@@ -16,6 +16,18 @@ export const useHeaderStore = create<HeaderStore>((set) => ({
             name: "Главная",
             href: "/",
         },
+          {
+            name: "О нас",
+            href: "/aboutUs",
+        },
+          {
+            name: "Курсы",
+            href: "/courses",
+        },
+          {
+            name: "Контакты",
+            href: "/contacts",
+        },
     ],
 
     isOpenProfileMenu: false,
